@@ -1,0 +1,22 @@
+{
+  "name": "algoexpert-solutions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modelB/AlgoExpert-Solutions.git"
+  },
+  "author": "Brian Grosso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modelB/AlgoExpert-Solutions/issues"
+  },
+  "homepage": "https://github.com/modelB/AlgoExpert-Solutions#readme",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
