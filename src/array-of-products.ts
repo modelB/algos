@@ -1,3 +1,4 @@
+// https://www.algoexpert.io/questions/Array%20Of%20Products
 export function arrayOfProducts(array: number[]) {
 	const length = array.length;
 	//move every element over one by popping last el off and unshifting to front
