@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  height: 500px;
+  width: 70%;
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+}
+
+/* tr {
+  border-top: 1px solid rgb(241, 240, 240);
+} */
+
+.gray-background {
+    background-color: rgb(241, 240, 240);
+}
+
+button {
+  margin: 20px;
+}
