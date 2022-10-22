@@ -1,4 +1,3 @@
-const body = document.querySelector("body");
 const table = document.querySelector("table");
 const forwardButton = document.querySelector('#forward')
 const backButton = document.querySelector('#back')

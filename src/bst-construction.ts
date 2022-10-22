@@ -42,7 +42,7 @@ export class BST {
     }
   }
 
-  height(accumulatedHeight: number = 1): number {
+  height(accumulatedHeight = 1): number {
     return Math.max(
       this.left ? this.left.height(accumulatedHeight + 1) : accumulatedHeight,
       this.right ? this.right.height(accumulatedHeight + 1) : accumulatedHeight
