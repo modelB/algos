@@ -1,15 +1,15 @@
 // https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 
-class TreeNode {
-  val: number;
-  left: TreeNode | null;
-  right: TreeNode | null;
-  constructor(val?: number, left?: TreeNode | null, right?: TreeNode | null) {
-    this.val = val === undefined ? 0 : val;
-    this.left = left === undefined ? null : left;
-    this.right = right === undefined ? null : right;
-  }
-}
+// class TreeNode {
+//   val: number;
+//   left: TreeNode | null;
+//   right: TreeNode | null;
+//   constructor(val?: number, left?: TreeNode | null, right?: TreeNode | null) {
+//     this.val = val === undefined ? 0 : val;
+//     this.left = left === undefined ? null : left;
+//     this.right = right === undefined ? null : right;
+//   }
+// }
 
 function buildTree(preorder: number[], inorder: number[]): TreeNode | null {
   const recurse = (
